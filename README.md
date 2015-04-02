@@ -16,7 +16,7 @@ otherwise (if you run an Ubuntu 64bit) just download the binary.
 Launch with 
 
 ```bash
-(./findIp)&
+(./findip)&
 ```
 
 It creates (and overwrite every 15 minutes) a `ip.txt` with the machine ip as seen from the internet.
