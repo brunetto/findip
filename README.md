@@ -13,10 +13,21 @@ otherwise (if you run an Ubuntu 64bit) just download the binary.
 
 ## Usage
 
+Use like:
+
+```
+fip once
+```
+
+to run it one time and get back the ip on the STDOUT 
+(useful to start a file server for example)
+
 Launch with 
 
 ```bash
 (./fip)&
 ```
 
-It creates (and overwrite every 15 minutes) a `ip.txt` with the machine ip as seen from the internet.
+to have it run indefinitely and updating the ip.txt file
+(useful to have an update address to connect to).
+
