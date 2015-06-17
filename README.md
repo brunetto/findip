@@ -31,3 +31,11 @@ Launch with
 to have it run indefinitely and updating the ip.txt file
 (useful to have an update address to connect to).
 
+You can also query the ip address as seen from the local network 
+with:
+
+```bash
+fip local <interface>
+```
+
+
